@@ -25,7 +25,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/bpanchayat/css/bpanchayat.css"
+app_include_css = "/assets/bpanchayat/css/login.css"
 # app_include_js = "/assets/bpanchayat/js/bpanchayat.js"
 
 # include js, css files in header of web template
@@ -237,3 +237,5 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+website_route_rules = [{'from_route': '/BiharPanchayat/<path:app_path>', 'to_route': 'BiharPanchayat'},]

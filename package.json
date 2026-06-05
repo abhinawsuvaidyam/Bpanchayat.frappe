@@ -1,0 +1,15 @@
+{
+  "name": "bpanchayat",
+  "version": "1.0.0",
+  "description": "About Bihar Panchayat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd BiharPanchayat && yarn install",
+    "dev": "cd BiharPanchayat && yarn dev",
+    "build": "cd BiharPanchayat && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

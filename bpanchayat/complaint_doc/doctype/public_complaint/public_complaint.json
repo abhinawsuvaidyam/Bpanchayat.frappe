@@ -1,0 +1,158 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{title}-{#####}",
+ "creation": "2026-05-23 12:09:10.122398",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_xucz",
+  "full_name",
+  "phone",
+  "column_break_vpfw",
+  "submitted_by",
+  "gram_panchayat",
+  "section_break_obkc",
+  "title",
+  "category",
+  "priority",
+  "is_anonymous",
+  "assigned_to",
+  "created_on",
+  "resolved_on",
+  "column_break_kfzm",
+  "status",
+  "village",
+  "image_proof",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_xucz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_vpfw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "submitted_by",
+   "fieldtype": "Link",
+   "label": "Submitted By",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_obkc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "\nRoad Problem\nWater Problem\nElectricity\nSchool Issue\nHealth Center\nCorruption Complaint\nMNREGA\nDrainage\nToilet Issue\nOther"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority",
+   "options": "Low\nMedium\nHigh"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_anonymous",
+   "fieldtype": "Check",
+   "label": "Is Anonymous"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Link",
+   "label": "Assigned To",
+   "options": "User"
+  },
+  {
+   "fieldname": "created_on",
+   "fieldtype": "Datetime",
+   "label": "Created On"
+  },
+  {
+   "fieldname": "resolved_on",
+   "fieldtype": "Datetime",
+   "label": "Resolved On"
+  },
+  {
+   "fieldname": "column_break_kfzm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Pending\nActive\nClosed"
+  },
+  {
+   "fieldname": "gram_panchayat",
+   "fieldtype": "Link",
+   "label": "Gram Panchayat",
+   "options": "Gram Panchayat"
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Link",
+   "label": "Village",
+   "options": "Village"
+  },
+  {
+   "fieldname": "image_proof",
+   "fieldtype": "Attach",
+   "label": "Image Proof"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Mobile Number",
+   "options": "Phone"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-03 15:36:34.221074",
+ "modified_by": "Administrator",
+ "module": "Complaint_Doc",
+ "name": "Public Complaint",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

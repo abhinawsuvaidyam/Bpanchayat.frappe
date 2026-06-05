@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{adhar_number}-(DD, MM, YY)",
+ "creation": "2026-05-26 14:53:47.749070",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "section_break_uaur",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "full_name",
+  "column_break_cdqw",
+  "profile_image",
+  "adhar_number",
+  "email",
+  "phone",
+  "section_break_rdjy",
+  "village",
+  "gram_panchayat",
+  "block",
+  "column_break_vifh",
+  "district",
+  "state",
+  "country"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "column_break_cdqw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "profile_image",
+   "fieldtype": "Attach Image",
+   "label": "Profile Image "
+  },
+  {
+   "fieldname": "adhar_number",
+   "fieldtype": "Data",
+   "label": "Adhar Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Link",
+   "label": "Village",
+   "options": "Village"
+  },
+  {
+   "fieldname": "gram_panchayat",
+   "fieldtype": "Link",
+   "label": "Gram Panchayat",
+   "options": "Gram Panchayat"
+  },
+  {
+   "fieldname": "block",
+   "fieldtype": "Link",
+   "label": "Block",
+   "options": "Block"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "District"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Link",
+   "label": "State",
+   "options": "State"
+  },
+  {
+   "default": "India",
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "section_break_rdjy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_vifh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_uaur",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "image_field": "profile_image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-03 14:20:34.097361",
+ "modified_by": "Administrator",
+ "module": "Villagers",
+ "name": "Villagers Profile",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
